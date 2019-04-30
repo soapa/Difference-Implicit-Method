@@ -58,5 +58,5 @@ def Fn(a):
     return  R.reshape(I-1,1)
 def Rig(a):
     return M1*(Rsh(a)-Fn(a))
-for i in reverse (4):
-	Rsh(i = Rig(i+1)
+for i in reverse (5):
+	Rsh(i-1） = Rig(i)
